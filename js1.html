@@ -1,0 +1,33 @@
+<html>
+<script language="Javascript">
+    function Login() {
+        var user = document.getElementById("username").value;
+        var pass = document.getElementById("password").value;
+
+        if (user == "admin" && passw == "123") {
+            alert("Selamat anda berhasil login");
+        } else {
+            alert("Username dan password anda salah!");
+        }
+    }
+</script>
+
+<body>
+    <form>
+        <table width="225" cellpadding="4">
+            <tr>
+                <td>Username</td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input type="button" value="Login" onclick="Login" </tr>
+        </table>
+    </form>
+</body>
+
+</html>
